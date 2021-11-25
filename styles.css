@@ -1,0 +1,45 @@
+nav{
+  border: 1px solid black; 
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px;
+  background-color: rgb(3, 126, 118);
+  /*                    hue  saturation  brightness
+  background-color: hsl(100,    50%,       50%)
+  */
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+nav ul {
+ color: white;
+ list-style: none;
+ padding: 0px;
+}
+
+.btn:hover{
+  background-color: rgb(5,40,116);
+}
+
+.btn > ul {
+  display: none;
+  background-color: rgb(5,40,116);
+  position: absolute;
+}
+
+.btn:hover > ul {
+  display: block;
+}
+
+.btn > ul > li {
+  padding: 20px;
+}
+
+.btn > ul > li:hover {
+  background-color: rgb(82, 5, 88);
+}
